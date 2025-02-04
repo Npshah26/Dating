@@ -1,0 +1,2 @@
+@keyframes spinner{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}.loading-spinner{animation:spinner 1.5s linear infinite;border:10px solid #f3f3f3;border-radius:50%;border-top-color:#383636;height:50px;margin:0;width:50px}.spinner-container{align-items:center;display:flex;height:calc(100vh - 377px);justify-content:center}
+/*# sourceMappingURL=4619.a5c8203d.chunk.css.map*/

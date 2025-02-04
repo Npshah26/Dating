@@ -1,0 +1,141 @@
+{
+    "appName": "<YOUR-APP-NAME>",
+    "apiBaseURL": "/api/",
+    "imageBaseurl":"/",
+    "version": 1.7,
+    "apiKeyForWeb": "Your key",
+    "authDomainForWeb": "*Your Firebase Porject Id*.firebaseapp.com",
+    "projectIdForWeb": "Your Firebase Porject Id",
+    "storageBucketForWeb": "*Your Firebase Porject Id*.appspot.com",
+    "messagingSenderIdForWeb": "Your message Sender Id",
+    "appIdForWeb": "Your Firebase App Id",
+    "measurementIdForWeb": "Your measurementId",
+    "vapidKey":"Your vapidKey",
+    "profileForList" : [
+    {
+        "id": 1, "name": "Myself", "gender": null
+    },
+    {
+        "id": 2, "name": "Son", "gender": "Male"
+    },
+    {
+        "id": 3, "name": "Daughter", "gender": "Female"
+    },
+    {
+        "id": 4, "name": "Brother", "gender": "Male"
+    },
+    {
+        "id": 5, "name": "Sister", "gender": "Female"
+    },
+    {
+        "id": 6, "name": "Friend", "gender": null
+    },
+    {
+        "id": 7, "name": "Relative", "gender": null
+    }],
+    "genderList" : ["Male", "Female", "Other/Not to Say", "Transgender"],
+    "maritalStatus": [
+        {
+            "id": 1, "name": "Married"
+        },
+        {
+            "id": 2, "name": "Widow"
+        },
+        {
+            "id": 3, "name": "Single"
+        },
+        {
+            "id": 4, "name": "Divorce"
+        },
+        {
+            "id": 5, "name": "Annulled"
+        },
+        {
+            "id": 6, "name": "Engaged"
+        },
+        {
+            "id":7 , "name": "Awaiting Divorce"
+        },
+        {
+            "id": 8, "name": "Never Married"
+        }
+    ],
+    "bloodGroupList" : ["O+", "O-", "A+", "A-", "B+", "B-", "AB+", "AB-", "Don't know"],
+   
+
+    "complexionList": [
+      { "id": 1, "name": "Fair" },
+      { "id": 2, "name": "Wheatish" },
+      { "id": 3, "name": "Dark" },
+      { "id": 4, "name": "Very Fair" },
+      { "id": 5, "name": "Preferred not to say" }
+    ],
+
+    "bodyTypesList": [
+        { "id": 1, "name": "Slim" },
+        { "id": 2, "name": "Athletic" },
+        { "id": 3, "name": "Average" },
+        { "id": 4, "name": "Curvy" },
+        { "id": 5, "name": "Muscular" },
+        { "id": 6, "name": "Heavyset" },
+        { "id": 7, "name": "Petite" },
+        { "id": 8, "name": "Plus Size" },
+        { "id": 9, "name": "Tall" },
+        { "id": 10, "name": "Fit" },
+        { "id": 11, "name": "Voluptuous" },
+        { "id": 12, "name": "Lean" },
+        { "id": 13, "name": "Prefer not to say" }
+        ],
+    "languages" : ["English","Hindi","Bengali","Marathi","Telugu","Deutsch","Tamil","Gujarati","Kannada","Malayalam","Punjabi","Assamese","Urdu"],
+    "eyeTypesList" :["Amber", "Blue", "Brown", "Gray", "Green", "Hazel", "Red"],
+    "residentialStatus" : ["Rented", "Owned", "Ancestral", "Parents"],
+    "visaStatusList" : ["Not Applied", "In Process", "Rejected", "Student Visa", "Work Permit", "Permanent Resident"],
+    "dietTypeList" : [        
+        {
+          "id": 1, "name":"Vegetarian"
+        },
+        {
+          "id": 2, "name":"Jain"
+        },
+        {
+           "id": 3, "name": "Non-Vegitarian"
+        }, 
+        {
+           "id": 4, "name": "Occasionally Non-Veg"
+        },
+        {
+           "id": 5, "name": "Pure Veg"
+        }, 
+        {
+           "id": 6, "name": "Vegan"
+        }, 
+        {
+           "id": 8, "name": "Pure Jain"
+        }, 
+        {
+           "id": 9, "name": "Eggitarian"
+        }
+        ],
+    "zodiacSignList" : ["Aries","Taurus","Gemini","Cancer","Leo","Virgo","Libra","Scorpio","Sagittarius","Capricorn","Aquarius","Pisces"],
+    "familyTypes": [
+        {
+          "type": "Parents",
+          "subTypes": ["Mother", "Father", "Guardian"]
+        },
+        {
+          "type": "Siblings",
+          "subTypes": ["Brother", "Sister"]
+        },
+        {
+            "type": "Paternal",
+            "subTypes": ["Grandparent", "Uncle","Aunty"]
+        },
+        {
+            "type": "Maternal ",
+            "subTypes": ["Grandparent", "Uncle","Aunty"]
+        }
+      ],
+      "smokeTypeList":["Non-Smoker", "Smoker", "Occasionally"],
+      "drinkTypeList":["Alcoholic", "Non-Alcoholic", "Occasionally"]
+
+} 

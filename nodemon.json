@@ -1,0 +1,5 @@
+{
+    "watch": ["src"],
+    "ignore": ["build", "node_modules", "logs", "tmp"],
+    "ext": "ts,js,json"
+  }

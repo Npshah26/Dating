@@ -1,26 +1,118 @@
 {
-  "name": "demo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node dist/index.js",
-    "dev": "nodemon src/index.ts",
-    "build": "tsc"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/express": "^5.0.0",
-    "@types/node": "^22.12.0",
-    "nodemon": "^3.1.9",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.7.3"
-  },
-  "dependencies": {
-    "express": "^4.21.2",
-    "tsc": "^2.0.4"
-  }
+
+    "name": "webapi",
+
+    "version": "1.3",
+
+    "description": "",
+
+    "main": "source/server.ts",
+
+    "scripts": {
+
+        "start": "concurrently \"tsc && nodemon --ignore variable.json source/server.ts\" \" cd client && npm start\"",
+
+        "docs": "apidoc -i source/routes/ -o apidoc/",
+
+        "build:client": "cd client && npm run build",
+
+        "build": "tsc && npm run build:client && nodemon source/move-files.ts"
+
+    },
+
+    "author": "",
+
+    "license": "ISC",
+
+    "dependencies": {
+
+        "@react-google-maps/api": "^2.19.3",
+
+        "@types/googlemaps": "^3.43.3",
+
+        "agora-token": "2.0.3",
+
+        "bcryptjs": "2.4.3",
+
+        "body-parser": "1.20.2",
+
+        "cheerio": "^1.0.0-rc.12",
+
+        "concurrently": "^8.2.2",
+
+        "cors": "2.8.5",
+
+        "cryptr": "6.3.0",
+
+        "dotenv": "16.4.5",
+
+        "express": "4.19.2",
+
+        "firebase": "10.12.2",
+
+        "firebase-admin": "12.2.0",
+
+        "fs": "0.0.1-security",
+
+        "fs-extra": "^11.2.0",
+
+        "hi-base32": "0.5.1",
+
+        "http-proxy-middleware": "^3.0.0",
+
+        "jimp": "0.22.12",
+
+        "jsonwebtoken": "9.0.2",
+
+        "mysql": "2.18.1",
+
+        "nodemailer": "6.9.14",
+
+        "otpauth": "9.3.1",
+
+        "razorpay": "^2.9.4",
+
+        "react-loader-spinner": "^6.1.6",
+
+        "react-window": "^1.8.10",
+
+        "stripe": "^16.7.0",
+
+        "ts-node": "10.9.2",
+
+        "typescript": "5.5.2",
+
+        "useragent": "^2.3.0",
+
+        "util": "0.12.5",
+
+        "uuidv4": "6.2.13"
+
+    },
+
+    "devDependencies": {
+
+        "@types/apidoc": "0.50.3",
+
+        "@types/bcryptjs": "2.4.6",
+
+        "@types/body-parser": "1.19.5",
+
+        "@types/cors": "2.8.17",
+
+        "@types/express": "^4.17.21",
+
+        "@types/fs-extra": "^11.0.4",
+
+        "@types/jsonwebtoken": "9.0.6",
+
+        "@types/mysql": "2.15.26",
+
+        "@types/node": "20.14.9",
+
+        "@types/useragent": "^2.3.4"
+
+    }
+
 }
+
