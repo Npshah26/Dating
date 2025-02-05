@@ -1,5 +1,5 @@
 {
-    "appName": "<YOUR-APP-NAME>",
+    "appName": "DatingMatch",
     "apiBaseURL": "/api/",
     "imageBaseurl":"/",
     "version": 1.7,
